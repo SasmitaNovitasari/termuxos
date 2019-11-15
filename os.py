@@ -15,31 +15,39 @@ def res():
 
 os.system("clear")
 
-print "================[HidHunt]================="
-print "==     Author   : Hidhunt       	=="
-print "==     Wa       : 088214804205  	=="
-print "==     Youtube  : Sasmita 2113  	=="
-print "==     Instagram: Sasmita_2103  	=="
-print "=================[~~~~~]=================="
-7
-print "\n\nMenu : "
+n='\033[0m'
+redx='\033[1;31m'
+hijaux='\033[1;32m'
+kuningx='\033[1;33m'
+birux='\033[1;34m'
+ungux='\033[1;35m'
+cyanx='\033[1;36m'
+
+print hijaux+"================"+kuningx+"[HidHunt]"+hijaux+"================="
+print hijaux+"==    "+cyanx+" Author   : Hidhunt       	"+hijaux+"=="
+print hijaux+"==    "+cyanx+" Wa       : 088214804205  	"+hijaux+"=="
+print hijaux+"==    "+cyanx+" Youtube  : Sasmita 2113  	"+hijaux+"=="
+print hijaux+"==     "+cyanx+"Instagram: Sasmita_2103"+hijaux+"  	=="
+print hijaux+"=================["+ungux+"~~~~~"+hijaux+"]=================="
+
+print birux+"\n\nMenu : "
 print ""
-print "[1] Ubuntu (rekomendasi utk pemula)"
-print "[2] Debian"
-print "[3] Kali"
-print "[4] Kali Nethunter"
-print "[5] Parrot Security"
-print "[6] BackBox"
-print "[7] Fedora"
-print "[8] CentOS"
-print "[9] OpenSUSE Leap"
-print "[10] OpenSUSE Tumbleweed"
-print "[11] Arch Linux"
-print "[12] Black Arch"
-print "[13] Alpine"
+print kuningx+"[1]"+cyanx+" Ubuntu (rekomendasi utk pemula)"
+print kuningx+"[2]"+ungux+" Debian"
+print kuningx+"[3]"+birux+" Kali"
+print kuningx+"[4]"+hijaux+" Kali Nethunter"
+print kuningx+"[5]"+kuningx+" Parrot Security"
+print kuningx+"[6]"+redx+" BackBox"
+print kuningx+"[7]"+cyanx+" Fedora"
+print kuningx+"[8]"+kuningx+" CentOS"
+print kuningx+"[9]"+birux+" OpenSUSE Leap"
+print kuningx+"[10]"+ungux+" OpenSUSE Tumbleweed"
+print kuningx+"[11]"+hijaux+" Arch Linux"
+print kuningx+"[12]"+redx+" Black Arch"
+print kuningx+"[13]"+cyanx+" Alpine"
 print ""
-print "[00] keluar\n"
-i = raw_input("HidHunt@os > ")
+print redx+"[00]"+hijaux+" keluar\n"
+i = raw_input(birux+"HidHunt@os > "+n)
 
 if i == 1:
  print "installing ubuntu..."
@@ -135,7 +143,7 @@ elif i == "00":
  os.system("exit")
 
 else:
- print "[!] Error: wrong input!"
+ print "\033[1;31m[!] Error: wrong input!"
  time.sleep (1)
  res()
 
